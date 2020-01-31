@@ -12,29 +12,40 @@ html, body, div, h1, h2, p, ul, li {
 /* ADD CSS BELOW */
 
 body {
-
+	flex-wrap: inherit;
 }
 
 h1, h2 {
-    
+	font-family: 'Bangers', cursive;
+	text-align: center;
 }
 
 h1 {
-
+	font-size: 40px;
+	padding: 20px;
 }
 
 h2 {
-
+	align-items: center;
 }
 
 .row {
-
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	list-style-type: none;
 }
 
 .col {
-
+	border: 2px dashed grey;
+	padding: 20px;
+	background-color: lightgray;
 }
 
 .image {
-
+	max-height: 150px;
+	align-items: center;
 }
