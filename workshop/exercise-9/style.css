@@ -1,20 +1,26 @@
 img {
-    max-width: 300px;
-  }
+  max-width: 300px;
+}
   
-  .img1 {
+.img1 {
+  z-index: 1;
+  position: absolute;
+}
   
-  }
+.img2 {
+  top: 0%;
+  left: 0%;
+  position: absolute;
+}
   
-  .img2 {
+.img3 {
+  right: 50%;    
+  top: 50%;
+  position: fixed ;
+}
   
-  }
-  
-  .img3 {
-  
-  }
-  
-  .img4 {
-  
-  }
-  
+.img4 {
+  bottom: 0%;
+  right: 0%;
+  position: absolute;
+}
